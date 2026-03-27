@@ -1,0 +1,35 @@
+# ============================================================
+# Financial NLP Dashboard - Requirements
+# Install all dependencies with:
+#   pip install -r requirements.txt
+# ============================================================
+
+# --- Data Collection ---
+newsapi-python==0.2.7          # Official NewsAPI Python client
+
+# --- Data Handling ---
+pandas==2.1.0                  # DataFrames for structured data
+numpy==1.24.3                  # Numerical operations
+
+# --- NLP Core ---
+spacy==3.7.2                   # Industrial-strength NLP (NER, tokenization, etc.)
+nltk==3.8.1                    # Classic NLP toolkit (VADER sentiment)
+vaderSentiment==3.3.2          # Rule-based sentiment analyzer (great for finance)
+
+# --- Deep Learning NLP ---
+transformers==4.35.0           # HuggingFace Transformers (FinBERT lives here)
+torch==2.1.0                   # PyTorch backend for transformers
+
+# --- Topic Modeling ---
+scikit-learn==1.3.0            # LDA topic modeling + TF-IDF vectorizer
+
+# --- Visualization ---
+plotly==5.17.0                 # Interactive charts for the dashboard
+wordcloud==1.9.2               # Word cloud generator
+matplotlib==3.7.2              # Base plotting library
+
+# --- Dashboard ---
+streamlit==1.28.0              # Turn Python scripts into web apps instantly
+
+# After installing, also run:
+#   python -m spacy download en_core_web_sm
