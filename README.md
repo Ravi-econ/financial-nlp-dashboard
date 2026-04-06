@@ -91,35 +91,3 @@ financial-nlp-dashboard/
 │
 └── visualizations/             # Auto-created word cloud PNGs
 ```
-
----
-
-## 💡 Key NLP Concepts Demonstrated
-
-- **Tokenization**: Splitting raw text into individual words
-- **Stop Word Removal**: Filtering high-frequency, low-meaning words
-- **Lemmatization**: Reducing words to their dictionary root form
-- **TF-IDF**: Measuring word importance relative to a corpus
-- **Transformer Models**: Using pre-trained BERT for context-aware NLP
-- **IOB Tagging**: How spaCy identifies entity boundaries
-- **LDA Topic Modeling**: Unsupervised discovery of latent topics
-- **Perplexity**: Evaluating topic model quality
-
----
-
-## 🌐 Deploying the Dashboard
-
-1. Push your project to GitHub
-2. Go to [https://streamlit.io/cloud](https://streamlit.io/cloud)
-3. Connect your GitHub repo
-4. Deploy — you'll get a public URL like `https://yourname-financial-nlp.streamlit.app`
-
----
-
-## 🤝 Interview Talking Points
-
-- "I compared rule-based (VADER) and transformer-based (FinBERT) sentiment models"
-- "FinBERT outperforms VADER on financial text because it was fine-tuned on earnings calls and financial news"
-- "I used LDA topic modeling to discover latent economic themes without any labeled data"
-- "The NER pipeline flags companies with high negative news exposure — analogous to what quant funds do"
-- "I deployed the full pipeline as an interactive Streamlit dashboard"
